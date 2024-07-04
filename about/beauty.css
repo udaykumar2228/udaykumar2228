@@ -1,0 +1,47 @@
+body
+{
+    background-color: black;
+    width: 500px;
+    height: 300px;
+}
+
+tr,td
+{
+    border: 2px solid;
+    border-color: coral;
+    color: white;
+    border-radius: 2px;
+    
+   
+}
+table
+{
+    border-spacing: 5px;
+    padding-left: 60px;
+    
+}
+input
+{
+    border-radius: 8px;
+    border-width: 3px;
+    border-color: coral;
+}
+h3
+{
+    background-color: darkcyan;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+td{
+   padding: 10px 12px;
+}
+#submit
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}

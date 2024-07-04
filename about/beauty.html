@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Care Center</title>
+    <link rel="stylesheet" href="beauty.css">
+</head>
+<body>
+    <forms>
+        <h3>Beauty Care Center- Appointment</h3>
+        <table>
+            <tr>
+                <td>Name*</td>
+                <td><input type="text" id="name" placeholder="Enter your Name" required></td>
+
+            </tr>
+            <tr>
+                <td>Gender*</td>
+                <td><input type="radio" id="gender" name="gname" value="Male" required>Male
+                <input type="radio" id="gender" name="gname" value="Female" required>Female
+                <input type="radio" id="gender" name="gname" value="Others" required>Others</td>
+
+            </tr>
+            <tr>
+                <td>E-mail address</td>
+                <td><input type="email" id="email" placeholder="Example: abc@gmail.com"></td>
+
+            </tr>
+            <tr>
+                <td>Mobile No*</td>
+                <td><input type="tel" id="phno" placeholder="Enter your Mobile No" required max="10"></td>
+
+            </tr>
+            <tr>
+                <td>Services*</td>
+                <td><input type="text" id="service" required></td>
+
+            </tr>
+            <tr>
+                <td>Date*</td>
+                <td><input type="date" id="date" required></td>
+
+            </tr>
+            <tr>
+                <td>Time*</td>
+                <td><select required>
+                    <option value="">-select one-</option>
+                    <option value="10:30 a.m">10:30 a.m</option>
+                    <option value="11:00 a.m">11:00 a.m</option>
+                    <option value="11:30 a.m">11:30 a.m</option>
+                    <option value="12:00 p.m">12:00 p.m</option>
+                    <option value="12:30 p.m">12:30 p.m</option>
+                    <option value="01:00 p.m">01:00 p.m</option>
+                    <option value="01:30 p.m">01:30 p.m</option>
+                    <option value="03:00 p.m">3:00 p.m</option>
+                    <option value="04:00 p.m">04:00 p.m</option>
+                    <option value="05:00 p.m">05:00 p.m</option>
+                </select></td>
+
+            </tr>
+             <tr>
+                <td>
+                    <forms id="address">Address</forms>
+                </td>
+                <td><textarea placeholder="Enter your address"></textarea></td>
+             </tr>
+    
+        </table>
+
+
+        <input type="checkbox" id="terms" required><a href="">I agree to terms of service and privacy policy</a>
+
+
+        <br>
+        <br>
+        <input type="submit" id="submit">
+
+
+    </forms>
+
+    
+</body>
+</html>

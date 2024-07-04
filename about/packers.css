@@ -1,0 +1,68 @@
+body
+{
+   
+    background-color: rgba(0, 170, 255, 0.59);
+    /* width: fit-content;
+    height: fit-content; */
+    display: flex;
+    flex: 1;
+}
+
+#image
+{
+    padding-top: 70px;
+    margin-right: 10px;
+    
+}
+
+h3
+{
+    background-color: white;
+    text-align: center;
+    color: red;
+    width: max-content;
+    margin-left: 190px;
+    padding: 1px 30px;
+    border-radius: 5px;
+    
+   
+}
+table,tr,td
+{
+    color: white;
+    border-style: solid;
+    border-radius: 6px;
+    inline-size: 700px; 
+    border-color: white;
+    
+}
+
+#reloc
+{
+    color: red;
+}
+
+#personal
+{
+    color: red;
+}
+
+
+#quote
+{
+    color: red;
+}
+
+#date,#cname,#phno,#email,#distance
+{
+    width: 97%;
+}
+
+textarea
+{
+    width: 97% ;
+}
+button
+{
+    color: red;
+}
